@@ -13,7 +13,7 @@ import StatsBar from './components/StatsBar';
 
 
 // REPLACE THIS WITH YOUR MAPBOX TOKEN
-const MAPBOX_TOKEN = process.env.REACT_APP_MAPBOX_TOKEN || 'YOUR_MAPBOX_TOKEN_HERE';
+const MAPBOX_TOKEN = process.env.REACT_APP_MAPBOX_TOKEN || 'pk.eyJ1IjoiYXZyMzEiLCJhIjoiY21tNnQ1bG9rMG1jcDJxcG1hbWJpaGN3eCJ9.6xQr71Azq2aLOz2cCtLfiw';
 
 const MAPBOX_STYLE = `https://api.mapbox.com/styles/v1/mapbox/dark-v11/tiles/{z}/{x}/{y}?access_token=${MAPBOX_TOKEN}`;
 
